@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> ChatBot </title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    </head>
+    <body>
+        <!--Botão do chat-->
+    <div class="chat-container">
+        <button id="floating-button" class="icon"><i class="fa-solid fa-question fa-2xl" style="color: #F68E2F;"></i></button><!--Botão com ícone "?"-->
+        <div class="chat-box" id="chatBox">
+            <div id="chatMessages"></div>
+            <input type="text" id="userInput" placeholder="Digite sua resposta...">
+            <button class="chatB" onclick="enviarMensagem()">Enviar</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script> <!--Link para o arquivo .js-->
+    <script src="https://kit.fontawesome.com/9781bdb3cd.js" crossorigin="anonymous"></script> <!--Link para adicionar o ícone "?"-->
+    </body>
+</html>
